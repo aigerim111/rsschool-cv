@@ -1,0 +1,194 @@
+    :root{
+        --main-color: #F2D2BD;
+        --main-font-color: #000;
+        --second-font-color: #fff;
+    }
+
+    body{
+        background-color: var(--main-color);
+    }
+
+    h4,p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        margin: 0px 250px;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    .row{
+        margin: 40px 20px;
+        display: flex;
+        padding: 40px 30px;
+        position: relative;
+    }
+
+    .name{
+        color: var(--main-font-color);
+        padding: 75px 80px;
+        font-size: 30px;
+        line-height: 15px;
+        z-index: initial;
+    }
+
+    .frame{
+        position: absolute;
+        background-color: var(--main-color);
+        width: 400px;
+        height: 320px;
+        float: left;
+    }
+
+    .main-section{
+        padding: 20px 30px;
+        margin: 50px 20px;
+    }
+
+    .head{
+        font-size: 25px;
+        margin: 0px;
+        text-transform: uppercase;
+    }
+
+    .line{
+        height: 8px;
+        background-color: var(--main-color);
+        border: var(--main-color);
+    }
+
+    .information{
+        font-size: 20px;
+    }
+
+    .right-section{
+        position: relative;
+        left: 50%;
+        width: 50%;
+        font-size: 1.1rem;
+        background-color: #F2D2BD;
+        padding: 10px 50px;
+        color: #ffffff;
+        line-height: 24px;
+    }
+
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-auto-rows: 55px;
+        padding: 0px;
+    }
+
+    .bar-section{
+        width: 80%;
+        background-color: var(--main-font-color);
+    }
+
+    .html-css-percentage{
+        width: 70%;
+        background-color: var(--main-color);
+    }
+
+    .percentage{
+        font-size: 15px;
+        color: var(--main-font-color);
+        padding: 2px 5px;
+    }
+
+    .figma-percentage{
+        width: 40%;
+        background-color: var(--main-color);
+    }
+
+    .bootstrap-percentage{
+        width: 60%;
+        background-color: var(--main-color);
+    }
+
+    .javascript-percentage{
+        width: 50%;
+        background-color: var(--main-color);
+    }
+
+    .java-percentage{
+        width: 65%;
+        background-color: var(--main-color);
+    }
+
+    .git-percentage{
+        width: 40%;
+        background-color: var(--main-color);
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .information h3{
+        margin: 20px 0 0 0;
+    }
+
+    .education-info{
+        padding: 8px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .information h6{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .information p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .english-percentage{
+        width: 70%;
+        background-color: var(--main-color);
+    }
+
+    .kazakh-percentage{
+        width: 100%;
+        background-color: var(--main-color);
+    }
+
+    .russian-percentage{
+        width: 95%;
+        background-color: var(--main-color);
+    }
+
+    .left-section{
+        position: relative;
+        right: 200px;
+        font-size: 1.1rem;
+        background-color: #F2D2BD;
+        color: #ffffff;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+
+    .footer-line{
+        width: 100%;
+        height: 8px;
+        background-color: var(--main-color);
+        border: var(--main-color);
+    }
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .year{
+        text-transform: uppercase;
+        padding: 15px 0;
+    }
+
+    .social-media a{
+        color: var(--main-font-color);
+        font-size: 40px;
+    }
