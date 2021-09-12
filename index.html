@@ -2,9 +2,187 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aigerim's CV</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b794a8ec8.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <div class="frame"></div>
+            <div class="row">
+                <div class="img">
+                    <img src="image/mainPhoto.JPG" width="250" height="300" alt="my photo">
+                </div>
+                <div class="name">
+                    <h2>Hi,</h2>
+                    <h2>I am Aigerim Ibragimova</h2>
+                </div>
+            </div>
+        </header>
 
+        <main>
+            <section class="main-section">
+                <h3 class="head">About myself</h3>
+                <hr class="line">
+                <div class="information">
+                    <p>I am a second-year student studying Software Engineering.</p>
+                    <p>I can describe myself as a high-motivated, responsible, flexible person.</p>
+                    <p>Currently I am actively studying web development.</p>
+                </div>
+
+                <div class="right-section">
+                    <h3 class="head">Contacts</h3>
+                    <div class="contacts">
+                        <p>Age: 18</p>
+                        <p>Gmail: ibragimovaaa177@gmail.com</p>
+                        <p>Phone: +7 707 508 03 12</p>
+                        <p>From: Nur-Sultan/Almaty, Kazakhstan</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main-section">
+                <h3 class="head">Programming skills</h3>
+                <hr class="line">
+                <div>
+                    <ul class="grid-layout">
+                        <li class="skills-section">
+                            <h4>HTML/CSS</h4>
+                            <div class="bar-section">
+                                <div class="html-css-percentage">
+                                    <p class="percentage">70%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-section">
+                            <h4>Figma</h4>
+                            <div class="bar-section">
+                                <div class="figma-percentage">
+                                    <p class="percentage">40%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-section">
+                            <h4>Bootstrap</h4>
+                            <div class="bar-section">
+                                <div class="bootstrap-percentage">
+                                    <p class="percentage">60%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-section">
+                            <h4>JavaScript</h4>
+                            <div class="bar-section">
+                                <div class="javascript-percentage">
+                                    <p class="percentage">50%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-section">
+                            <h4>Java</h4>
+                            <div class="bar-section">
+                                <div class="java-percentage">
+                                    <p class="percentage">65%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skills-section">
+                            <h4>Git</h4>
+                            <div class="bar-section">
+                                <div class="git-percentage">
+                                    <p class="percentage">40%</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="main-section">
+                <h3 class="head">Education</h3>
+                <hr class="line">
+                <div class="information">
+                    <h3><i class="fas fa-university"></i>Astana IT University</h3>
+                    <div class="education-info">
+                        <h6>Software Engineering</h6>
+                        <p>2020-2023</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main-section">
+                <h3 class="head">Languages</h3>
+                <hr class="line">
+                <div>
+                    <ul class="grid-layout">
+                        <li class="language-section">
+                            <h4>English</h4>
+                            <div class="bar-section">
+                                <div class="english-percentage">
+                                    <p class="percentage">70%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="language-section">
+                            <h4>Kazakh</h4>
+                            <div class="bar-section">
+                                <div class="kazakh-percentage">
+                                    <p class="percentage">100%</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="language-section">
+                            <h4>Russian</h4>
+                            <div class="bar-section">
+                                <div class="russian-percentage">
+                                    <p class="percentage">90%</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="main-section">
+                <h3 class="head">Example of a code</h3>
+                <div class="left-section">
+                    <div class="code">
+                        <pre>
+                            <code>
+                                function toCamelCase(str){
+                                    for (let i = 0; i < str.length - 1 ; i++){
+                                        if (str[i] === "-" || str[i] === "_"){
+                                          str = str.replace(str[i+1], str[i+1].toUpperCase());
+                                          str = str.replace(str[i], "");
+                                        }
+                                      }
+                                    return str;
+                                };
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <hr class="footer-line">
+                <div class="footer-container">
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/ibr.agimova/"><i class="fab fa-instagram-square fa-10px"></i></a>
+                        <a href="https://github.com/aigerim111"><i class="fab fa-github-square fa-10px"></i></a>
+                    </div>
+                    <div class="year"><h4>september, 2021</h4></div>
+                    <div class="logo">
+                        <a href="https://rs.school/js/">
+                            <img src="image/rs_school_js.svg" alt="logo" width="80" height="50">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
