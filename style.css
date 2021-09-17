@@ -4,8 +4,17 @@
         --second-font-color: #fff;
     }
 
+    html{
+        scroll-behavior: smooth !important;
+    }
+
     body{
-        background-color: var(--main-color);
+        background-color: var(--main-color) !important;
+        font-family: 'Glory', sans-serif !important;
+    }
+
+    h1, h2, h3, h4, h6 {
+        font-weight: 700 !important;
     }
 
     h4,p{
@@ -14,24 +23,28 @@
     }
 
     .container{
-        margin: 0px 250px;
         background-color: #ffffff;
-        position: relative;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 
-    .row{
-        margin: 40px 20px;
-        display: flex;
-        padding: 40px 30px;
-        position: relative;
+    .navbar-nav{
+        padding: 2%;
+        font-size: 1.3rem;
+        color: var(--main-font-color);
     }
 
     .name{
         color: var(--main-font-color);
-        padding: 75px 80px;
-        font-size: 30px;
+        font-size: 4rem;
+        padding: 15% 90px;
         line-height: 15px;
         z-index: initial;
+    }
+
+    .img img{
+        margin: 2% 5%;
+        width: 60%;
+        height: 90%;
     }
 
     .frame{
@@ -65,20 +78,25 @@
 
     .right-section{
         position: relative;
-        left: 50%;
-        width: 50%;
+        left: 41%;
+        width: 62%;
         font-size: 1.1rem;
         background-color: #F2D2BD;
-        padding: 10px 50px;
+        padding: 2% 0 2% 2%;
         color: #ffffff;
         line-height: 24px;
     }
 
-    .grid-layout{
-        display: grid;
-        grid-template-columns: 500px 500px;
-        grid-auto-rows: 55px;
-        padding: 0px;
+    .contacts{
+        padding: 2% 0;
+    }
+
+    .contacts a{
+        color: var(--second-font-color);
+    }
+
+    .contacts a:hover{
+        color: var(--main-font-color);
     }
 
     .bar-section{
@@ -131,7 +149,7 @@
     }
 
     .education-info{
-        padding: 8px;
+        padding: 2%;
         color: rgba(0, 0, 0, 0.5);
     }
     .information h6{
@@ -142,6 +160,19 @@
     .information p{
         padding: 0;
         margin: 0;
+    }
+
+    .project-info{
+        padding: 2% 0;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .project-info a{
+        color: #F2D2BD;
+    }
+
+    .project-info a:hover{
+        color: rgba(0, 0, 0, 0.5);
     }
 
     .english-percentage{
@@ -161,7 +192,7 @@
 
     .left-section{
         position: relative;
-        right: 200px;
+        right: 4.1rem;
         font-size: 1.1rem;
         background-color: #F2D2BD;
         color: #ffffff;
@@ -176,13 +207,6 @@
         border: var(--main-color);
     }
 
-    .footer-container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
-        padding: 30px;
-    }
-
     .year{
         text-transform: uppercase;
         padding: 15px 0;
@@ -191,4 +215,12 @@
     .social-media a{
         color: var(--main-font-color);
         font-size: 40px;
+    }
+
+    .social-media i:hover{
+        color: var(--main-color);
+    }
+
+    .logo img:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
